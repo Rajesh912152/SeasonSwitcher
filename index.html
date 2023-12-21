@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <title>Season Switcher</title>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+       
+    </head>
+    <body>
+        <div>
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-four-seasons-xs-img.png" class="d-inline d-md-none season-image" id="season1"/>
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-four-seasons-md-img.png" class="d-none d-md-inline season-image" id="season2"/>
+            <div class="d-flex flex-row justify-content-center pt-5">
+                <button class="button btn1" onclick="spring()">Spring</button>
+                <button class="button btn2" onclick="summer()">Summer</button>
+                <button class="button btn3" onclick="autumn()">Autumn</button>
+                <button class="button btn4" onclick="winter()">Winter</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
